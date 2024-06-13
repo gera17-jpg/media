@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(187, 168, 168);
+  border: 5px solid green;
+  }
+  
+  .box{
+  display: flex;
+  margin: 30px;
+  width: 120px;
+  height: 180px;
+  background-color: yellow;
+}
+@media (width<= 1028px){
+  .box{
+    background-color: brown;
+    display: inline-block;
+    width:320px;
+    height:180px;
+    margin: auto;
+    border: 2px white solid;
+  }
+}
